@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4103cc11-d68c-4be1-a59f-e07a1ba8c5d8" name="Default Changelist" comment="" />
+    <list default="true" id="4103cc11-d68c-4be1-a59f-e07a1ba8c5d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../day5/homework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/helloworld-edeservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/helloworld-edeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/helloworld-edeservice/src/main/resources/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/helloworld-edeservice/src/main/resources/microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day5/homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day5/homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +38,34 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helloworld-edgeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld-edgeservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="85" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="85" />
+              <caret line="85" selection-start-line="10" selection-start-column="2" selection-end-line="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="84" column="10" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="84" selection-end-column="10" />
+            <state relative-caret-position="840">
+              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -52,6 +74,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -61,12 +84,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -83,25 +107,25 @@
             <path>
               <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -109,7 +133,49 @@
             <path>
               <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="training21days" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="training21days" type="462c0819:PsiDirectoryNode" />
+              <item name="edge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo-Day6-Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo-Day6-Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edgeservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -154,16 +220,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552871214708</updated>
-      <workItem from="1552871216439" duration="540000" />
+      <workItem from="1552871216439" duration="2809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540000" />
+    <option name="totallyTimeSpent" value="2809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -206,22 +271,29 @@
     <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/java/microservice/demo/training21days/provider/service/Person.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-edgeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="85" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="85" />
+          <caret line="85" selection-start-line="10" selection-start-column="2" selection-end-line="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="84" column="10" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="84" selection-end-column="10" />
+        <state relative-caret-position="840">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-edgeservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-edgeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

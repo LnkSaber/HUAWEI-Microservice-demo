@@ -11,6 +11,7 @@
     <modules>
         <module>helloworld-provider</module>
         <module>helloworld-consumer</module>
+        <module>helloworld-edeservice</module>
     </modules>
 
 
