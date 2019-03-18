@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-api" />
+        <module name="helloworld-consumer" />
+        <module name="helloworld-model" />
+        <module name="helloworld-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="helloworld-api" target="1.8" />
+      <module name="helloworld-consumer" target="1.8" />
+      <module name="helloworld-model" target="1.8" />
+      <module name="helloworld-provider" target="1.8" />
+      <module name="test-servicecomb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+hello:
+ ..sayHelloPrefix:."Hello(from.disk.file)."

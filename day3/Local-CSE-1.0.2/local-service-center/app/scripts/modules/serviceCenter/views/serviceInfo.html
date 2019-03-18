@@ -1,0 +1,53 @@
+<!--
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<div class="row serviceInfo">
+  <div class="col-md-2 details">
+    <h1>{{serviceDetail.serviceName || "S" | limitTo : 1 : 0 }}</h1>
+  </div>
+  <div class="col-md-10">
+  	<ul>
+  		<li><strong>{{serviceDetail.serviceName || "No Service"}}</strong></li>
+  		<li>{{ 'application' | translate }}: {{serviceDetail.appId || "No data"}}</li>
+  		<li>{{ 'version' | translate }}: {{serviceDetail.version || "No data"}}</li>
+  		<li>{{ 'createdAt' | translate }}: {{serviceDetail.createdAt || "No data"}}</li>
+  	</ul>
+  </div>
+</div>
+
+<div class="serviceInfoTab" ng-cloak>
+  <md-content>
+    <md-tabs md-selected="selectedTab" md-dynamic-height md-border-bottom>
+      <md-tab label="{{ 'serviceInstances' | translate }}({{instances.length}})" ng-click="getInstance()">
+      </md-tab>
+
+      <md-tab label="{{ 'serviceProviders' | translate }}({{providers.length}})" ng-click="getProvider()">
+      </md-tab>
+
+      <md-tab label="{{ 'serviceConsumers' | translate }}({{consumers.length}})" ng-click="getConsumer()">
+      </md-tab>
+
+      <md-tab label="{{ 'schema' | translate }}" ng-click="getSchema()">
+      </md-tab>
+
+      <md-tab label="{{ 'properties' | translate }}" ng-click="getProperties()">
+      </md-tab>
+    </md-tabs>
+
+      <div ui-view="info"></div>
+
+  </md-content>
+</div>

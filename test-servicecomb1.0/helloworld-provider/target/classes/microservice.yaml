@@ -1,0 +1,16 @@
+APPLICATION_ID: helloworldproject
+service_description:
+  name: helloworld-provider
+  version: 1.0.0
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com
+      instance:
+        watch: false
+  credentials:
+    accessKey: CMPEUCGEDINQKGWBGHVB
+    secretKey: HEYSZL5zTw6HLfPEOxzGnWpbzLwHWAylUc99vMtd
+    akskCustomCipher: default
+  rest:
+    address: 0.0.0.0:8080

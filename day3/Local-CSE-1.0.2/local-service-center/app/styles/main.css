@@ -1,0 +1,403 @@
+@charset "UTF-8";
+/*
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif !important; }
+  body .loader {
+    background: rgba(0, 0, 0, 0.2) url("../images/load.gif") no-repeat 50% center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none; }
+  body .no-margin {
+    margin: 0px !important; }
+  body .pagination-class .label {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-weight: normal; }
+  body .serviceStatus {
+    height: 20px;
+    width: 40px;
+    color: white;
+    text-align: center; }
+    body .serviceStatus.up {
+      background-color: #5ecc49; }
+    body .serviceStatus.starting {
+      background-color: #e6e600; }
+    body .serviceStatus.down {
+      background-color: #d50000; }
+    body .serviceStatus.outofservice {
+      background-color: #bcc2c9; }
+  nav {
+    background-color: #000000 !important;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+  }
+  .navbar-fixed-top {
+    z-index: 10 !important;
+  }
+  body .navbar {
+    border-radius: unset !important; }
+    body .navbar .logo {
+      margin-top: 7px;
+      margin-left: 25px; }
+    body .navbar .label {
+      color: white;
+      font-size: 16px; }
+    body .navbar .navbar-right {
+      margin-right: 15px !important;
+      height: 50px !important;
+       }
+      body .navbar .navbar-right .navbar-right-header label{
+       color : #fff !important;
+      }
+      
+  body .sidebar-wrapper {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    font-family: sans-serif;
+    }
+    body .sidebar-wrapper .sidebar-nav {
+      position: fixed;
+      top: 75px;
+      width: 230px;
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      body .sidebar-wrapper .sidebar-nav li {
+        color: #000;
+        text-indent: 20px;
+        line-height: 50px; }
+        body .sidebar-wrapper .sidebar-nav li a {
+          display: block;
+          text-decoration: none;
+          color: #000;
+          font-size: 14px; }
+          body .sidebar-wrapper .sidebar-nav li a:hover {
+            text-decoration: none;
+            color: black !important;
+            background: #efefef;
+            width:230px;}
+      body .sidebar-wrapper .sidebar-nav .active, body .sidebar-wrapper .sidebar-nav .activeProvider, body .sidebar-wrapper .sidebar-nav .activeConsumer, body .sidebar-wrapper .sidebar-nav .schemaTab{
+        text-decoration: none;
+        color: #000 !important;
+        border-left: 3px solid #3c8dbc;
+        background-color: #efefef;
+        width:230px;}
+    body .sidebar-wrapper .brand {
+          font-size: 22px;
+          text-align: center;
+          text-indent: 0px !important;
+      }
+      body .sidebar-wrapper ul li:first-child {
+        border-bottom: 1px solid #d3d3d3;
+      }
+  body .bodyContent {
+    margin-left: 250px;
+    padding-top: 60px;}
+  body .fa-close {
+    color: white; }
+  body .table-header {
+    height: 50px;
+    min-height: 50px; }
+  body .no-padding {
+    padding: 0; }
+  body #search {
+    max-width: 300px; }
+  body table.md-table td.md-cell {
+    height: 48px; }
+  body table.md-table .md-head tr th {
+    font-size: 14px;
+    color: #000; }
+  body .serviceInfo {
+    margin: 0px; 
+    font-family: sans-serif;}
+    body .serviceInfo .details {
+      height: 80px;
+      width: 80px;
+      background-color: #efefef;
+      border-radius: 50%;
+      text-align: center; }
+    body .serviceInfo ul {
+      list-style-type: none; }
+      body .serviceInfo ul li:first-child {
+        line-height: 30px; }
+  body .serviceInfoTab {
+    margin-left: 8px;
+    margin-top: 50px;
+    padding-bottom: 100px; }
+    body canvas:hover {
+      cursor: pointer; }
+  body .margin20 {
+    margin-top: 20px; }
+ body .pb10 {
+    padding-bottom: 10px; }
+  body .m5 {
+    margin: 5px 0px;
+  }
+  body .infoTableHead {
+    background-color: #efefef; }
+  
+  body .schemaTable th {
+    width: 50%; }
+  body md-toolbar.md-default-theme:not(.md-menu-toolbar), body md-toolbar:not(.md-menu-toolbar) {
+    background-color: #000000 !important; }
+  body md-toolbar.md-default-theme:not(.md-menu-toolbar).md-warn, body md-toolbar:not(.md-menu-toolbar).md-warn {
+    background-color: #ff5722 !important; }
+  body #schemes {
+    width: 8%;
+    border: 2px solid #006666; }
+  body .swaggerDiv {
+    margin: 0px 20px; }
+  .fa-snowflake-o {
+    display: block;
+    font-size: 40px;
+  }
+.userGuide-list {
+    line-height: 2;
+}
+.mainFooter {
+    position: fixed;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000000 !important;
+    color: #fff;
+    padding-top: 5px;
+    z-index: 0;
+}
+md-card {
+    margin-left: 0px;
+}
+#tenant, md-select-value {
+    margin-top: -10px !important;
+}
+.schemaBtn {
+    background-color: #000000 !important;
+    color: #fff !important;
+    margin-left: 0px;
+}
+.tenant {
+    color: white;
+    position: relative;
+    top: 12px;
+    margin-right: 10px;
+    font-size: 18px
+}
+ md-select-value,.md-select-icon, #tenant {
+    color: white !important;
+    border-color: whitesmoke !important;
+}
+body .pagination-class .label {
+  margin-right: -35px;
+}
+md-content {
+  font-family: sans-serif;
+  background-color: #fff !important;
+}
+md-select-menu md-content {
+   position: relative;
+   z-index: 1;
+}
+md-table-pagination .md-text {
+   color: grey;
+   margin-top: 8px;
+}
+md-table-pagination .md-select-icon {
+  color: grey !important;
+  padding-top: 10px;
+}
+.pointer {
+  cursor: pointer;
+}
+.appId-label {
+    color: white;
+    position: absolute;
+    left: 10px;
+}
+table, md-toolbar {
+  font-family: sans-serif;
+}
+.highwayErr {
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.h-42 {
+    height: 42px;
+}
+.h-50 {
+    height: 50px;
+}
+.pl-3 {
+    padding-left: 3px
+}
+.pl-60 {
+    padding-left: 60px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pt-15 {
+    padding-top: 15px !important;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.m0 {
+    margin: 0px;
+}
+.mr-0 {
+    margin-right: 0px !important;
+}
+.md-toolbar-tools {
+    font-size: 15px;
+}
+.no-data{
+    text-align: center;
+    padding-top: 5%;
+}
+.box {
+    background: #f5f5f5;
+    height: 200px;
+    margin-right: 11%;
+}
+.box:last-of-type {
+    margin-right: 0px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #28a77226;
+    border-radius:  50%;
+    margin: 15% auto;
+}
+.fa-exclamation-triangle {
+    font-size: 25px;
+}
+.panel-body-height {
+   height: 178px;
+}
+.stat-icon-size {
+    font-size: 35px;
+    color: grey;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+}
+.c100 {
+    margin-left: 22%;
+    margin-top: 15%;
+    font-size: 100px !important;
+}
+.c100 > span {
+    color: #808080 !important;
+}
+.ins-stat-title {
+    padding-top: 5%;
+    clear: both;
+    text-align: center;
+}
+.dashboardTable th, .dashboardTable td {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dashboardTable .columnA, .dashboardTable .columnB, .dashboardTable .columnC {
+    width: 33%;
+}
+.dashboardTable .columnA:hover, .dashboardTable .columnA:hover, .dashboardTable .columnB:hover, .dashboardTable .columnB:hover, .dashboardTable .columnC:hover, .dashboardTable .columnC:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}
+.topology-header {
+    background: #000000;
+    color: white;
+    height: 50px;
+    margin-right: 20px;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: grey;
+}
+
+@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px) {
+     .pb-50 {
+         padding-bottom: 50px;
+     }
+     .box {
+        height: 160px !important;
+     }
+     .circle {
+        height: 80px !important;
+        width: 80px !important;
+     }
+     .stat-icon-size {
+        padding-top: 27% !important;
+     }
+     .c100 {
+        margin-left: 8% !important;
+        margin-top: 20% !important;
+        font-size: 75px !important;
+     }
+     md-table-container {
+        overflow-x: hidden;
+     }
+}
+/*# sourceMappingURL=main.css.map */
+
+/* override the fa-snowflake styles */
+
+.fa-snowflake-o {
+    height: 55px;
+    background-image: url("../images/snow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px 60px;
+}
+
+.fa-snowflake-o:before {
+    content: "" !important;
+}

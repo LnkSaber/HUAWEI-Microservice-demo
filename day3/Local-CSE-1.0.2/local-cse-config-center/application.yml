@@ -1,0 +1,37 @@
+paas:
+  doamin: ${INNER_DOMAIN:op_svc_servicestage}
+  region: ${REGION_NAME:}
+  var_path: ${_APP_LOG_DIR:}
+  deployType: publicCloud
+cse:
+  service-name: cse-config-center
+  server:
+    host: 0.0.0.0
+    port: 30113
+    freshPort: 30114
+    authmode: none
+    metric:
+      interval: ${METRIC_INTERVAL:30}
+      filePath: ${METRIC_FILEPATH:}
+      rollingSize: ${METRIC_ROLLINGSIZE:10MB}
+    idleTimeout: 120
+    ssloption:
+      ssl: false
+    sla:
+      duration: ${SLA_DURATION:2.0}
+      tps: ${SLA_TPS:20000.0}
+      successRate: ${SLA_SUCCESS_RATE:95.0}
+    tracing:
+      sample_rate: ${TRACING_SAMPLE_RATE:0.5}
+    health:
+      system:
+        enabel: false
+  config:
+    item:
+      capacity: ${CONFIG_ITEM_CAPACITY:20000}
+storage:
+  mode: file
+alarm:
+  mode: none
+audit:
+  mode: none

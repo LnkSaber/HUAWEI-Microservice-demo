@@ -1,0 +1,16 @@
+APPLICATION_ID: start.servicecomb.io
+service_description:
+  name: provider-rpc
+  version: 0.0.1
+  properties:
+    allowCrossApp: true
+servicecomb:
+  handler:
+    chain:
+      Provider: {}
+  highway:
+    address: 0.0.0.0:9090
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+      autodiscovery: false

@@ -1,0 +1,16 @@
+APPLICATION_ID: start.servicecomb.io
+service_description:
+  name: consumer
+  version: 0.0.1
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com
+      instance:
+        watch: false
+  credentials:
+    accessKey: M1QEEHNSRUNNDY3KUGVT
+    secretKey: y06Vpd5HvrA1bRAD3pBqv3XL3JTOb1rGg4nEC7mr
+    akskCustomCipher: default
+  rest:
+    address: 0.0.0.0:8088

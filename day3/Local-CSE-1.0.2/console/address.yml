@@ -1,0 +1,16 @@
+address:
+  loadbalance: roundrobin
+  ssl:
+    certPath: D:\\opt\\CSE\\etc\\ssl   #证书路径
+    cert: server.p12
+    ca: trust.cer
+    pwd: cert_pwd
+    protocols: TLSv1.2
+    ciphers: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_128_GCM_SHA256
+  default:  #各个领域的转发地址，支持多个
+    service-center:
+      endpoints: http://127.0.0.1:30100
+      auth: false
+    config-center:
+      endpoints: http://127.0.0.1:30113
+      auth: false

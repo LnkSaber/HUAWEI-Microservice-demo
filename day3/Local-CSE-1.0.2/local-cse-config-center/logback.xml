@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="FILE" class="ch.qos.logback.core.rolling.LogFileAppender">
+        <!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <File>${_APP_LOG_DIR}/configCenter.log</File>
+        <encoder>
+            <pattern>
+                %-84(%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{24}[%line]): %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${_APP_LOG_DIR}/configCenter-%d{yyyy-MM-dd}.%i.log.zip
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10 MB -->
+                <maxFileSize>10 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>500MB</totalSizeCap>
+        </rollingPolicy>
+
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <includeCallerData>true</includeCallerData>
+        <discardingThreshold>20</discardingThreshold>
+        <queueSize>512</queueSize>
+        <appender-ref ref="FILE" />
+    </appender>
+    <appender name="CONNECT" class="ch.qos.logback.core.rolling.LogFileAppender">
+        <!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <File>${_APP_LOG_DIR}/connect.log</File>
+        <encoder>
+            <pattern>
+                %-84(%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{24}[%line]): %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${_APP_LOG_DIR}/connect-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>3</maxHistory>
+            <totalSizeCap>30MB</totalSizeCap>
+        </rollingPolicy>
+
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNC_CONNECT" class="ch.qos.logback.classic.AsyncAppender">
+        <includeCallerData>true</includeCallerData>
+        <discardingThreshold>20</discardingThreshold>
+        <queueSize>512</queueSize>
+        <appender-ref ref="CONNECT" />
+    </appender>
+    <appender name="AUDIT" class="ch.qos.logback.core.rolling.LogFileAppender">
+        <!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <File>${_APP_LOG_DIR}/audit.log</File>
+        <encoder>
+            <pattern>
+                %-84(%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{24}[%line]): %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${_APP_LOG_DIR}/audit-%d{yyyy-MM-dd}.%i.log.zip
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10 MB -->
+                <maxFileSize>20 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 7 days' worth of history -->
+            <maxHistory>90</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNC_AUDIT" class="ch.qos.logback.classic.AsyncAppender">
+        <includeCallerData>true</includeCallerData>
+        <discardingThreshold>20</discardingThreshold>
+        <queueSize>512</queueSize>
+        <appender-ref ref="AUDIT" />
+    </appender>
+    <appender name="ALARM" class="ch.qos.logback.core.rolling.LogFileAppender">
+        <!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <File>${_APP_LOG_DIR}/alarm.dat</File>
+        <encoder>
+            <pattern>
+                %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${_APP_LOG_DIR}/alarm-%d{yyyy-MM-dd}.%i.dat.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10 MB -->
+                <maxFileSize>20 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 7 days' worth of history -->
+            <maxHistory>90</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNC_ALARM" class="ch.qos.logback.classic.AsyncAppender">
+        <includeCallerData>true</includeCallerData>
+        <discardingThreshold>20</discardingThreshold>
+        <queueSize>512</queueSize>
+        <appender-ref ref="ALARM" />
+    </appender>
+    <appender name="METRIC" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <!-- This is MDC value -->
+        <!-- We will assign a value to 'logFileName' via Java code -->
+        <discriminator>
+            <key>logFileName</key>
+            <defaultValue>metric</defaultValue>
+        </discriminator>
+        <sift>
+            <!-- A standard RollingFileAppender, the log file is based on 'logFileName' at runtime -->
+            <appender name="METRIC-${logFileName}" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${METRIC_FILEPATH:-/opt/huawei/monitor}/${logFileName}.dat</file>
+                <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                    <Pattern>
+                        %msg%n
+                    </Pattern>
+                </encoder>
+                <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+                    <FileNamePattern>${METRIC_FILEPATH:-/opt/huawei/monitor}/${logFileName}.%d{yyyy-MM-dd}.%i.zip
+                    </FileNamePattern>
+                    <MinIndex>1</MinIndex>
+                    <MaxIndex>10</MaxIndex>
+                </rollingPolicy>
+                <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                    <fileNamePattern>${METRIC_FILEPATH:-/opt/huawei/monitor}/${logFileName}.%d{yyyy-MM-dd}.%i.zip
+                    </fileNamePattern>
+                    <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                        <maxFileSize>10MB</maxFileSize>
+                    </timeBasedFileNamingAndTriggeringPolicy>
+                    <maxHistory>7</maxHistory>
+                    <totalSizeCap>50MB</totalSizeCap>
+                </rollingPolicy>
+            </appender>
+        </sift>
+    </appender>
+
+    <appender name="TRACING" class="ch.qos.logback.core.rolling.LogFileAppender">
+        <!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <File>${_APP_LOG_DIR}/cse-config-center_talc.dat</File>
+        <encoder>
+            <pattern>
+                %msg%n
+            </pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily 配置日志所生成的目录以及生成文件名的规则 -->
+            <fileNamePattern>${_APP_LOG_DIR}/cse-config-center_talc_%d{yyyy-MM-dd}.%i.dat</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10 MB -->
+                <maxFileSize>20 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 7 days' worth of history -->
+            <maxHistory>90</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNC_TRACING" class="ch.qos.logback.classic.AsyncAppender">
+        <includeCallerData>true</includeCallerData>
+        <discardingThreshold>20</discardingThreshold>
+        <queueSize>512</queueSize>
+        <appender-ref ref="TRACING" />
+    </appender>
+    <!-- Enable FILE and STDOUT appenders for all log messages. By default, only log at level INFO and above. -->
+    <root level="INFO">
+        <appender-ref ref="ASYNC" />
+    </root>
+    <logger name="cse.config.server.audit" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_AUDIT" />
+    </logger>
+    <logger name="cse.common.audit" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_AUDIT" />
+    </logger>
+    <logger name="cse.common.alarm.AlarmStore" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_ALARM" />
+    </logger>
+    <logger name="cse.common.metric.consumer.ConsumerMetricExporter" level="INFO" additivity="false">
+        <appender-ref ref="METRIC" />
+    </logger>
+    <logger name="cse.common.metric.zipkin.TraceRepoter" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_TRACING" />
+    </logger>
+    <logger name="io.netty.channel.DefaultChannelPipeline" level="WARN" additivity="false">
+        <appender-ref ref="ASYNC_CONNECT" />
+    </logger>
+    <logger name="cse.config.server.HttpServerDeploy" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_CONNECT" />
+    </logger>
+</configuration>

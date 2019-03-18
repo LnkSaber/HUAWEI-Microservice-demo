@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloworld-api/helloworld-api.iml" filepath="$PROJECT_DIR$/helloworld-api/helloworld-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld-consumer/helloworld-consumer.iml" filepath="$PROJECT_DIR$/helloworld-consumer/helloworld-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld-model/helloworld-model.iml" filepath="$PROJECT_DIR$/helloworld-model/helloworld-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld-provider/helloworld-provider.iml" filepath="$PROJECT_DIR$/helloworld-provider/helloworld-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-servicecomb.iml" filepath="$PROJECT_DIR$/test-servicecomb.iml" />
+    </modules>
+  </component>
+</project>

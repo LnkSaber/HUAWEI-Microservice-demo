@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.huawei.paas.cse:cse-handler-tcc:2.3.25">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-tcc/2.3.25/cse-handler-tcc-2.3.25.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-tcc/2.3.25/cse-handler-tcc-2.3.25-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-tcc/2.3.25/cse-handler-tcc-2.3.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

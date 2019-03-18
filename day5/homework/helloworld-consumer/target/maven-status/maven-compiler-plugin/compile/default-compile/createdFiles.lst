@@ -1,0 +1,6 @@
+microservice\demo\training21days\provider\service\Person.class
+microservice\demo\training21days\provider\service\HelloService.class
+microservice\demo\training21days\provider\service\GreetingResponse.class
+microservice\demo\training21days\provider\service\Gender.class
+microservice\demo\training21days\consumer\AppMain.class
+microservice\demo\training21days\consumer\service\HelloConsumerService.class

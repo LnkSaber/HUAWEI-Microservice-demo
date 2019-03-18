@@ -1,0 +1,25 @@
+spring:
+  mvc:
+    favicon:
+      enabled: false
+  #cas config
+  cas:
+    mocked: true
+    enabled: false
+    sign-out-filters: /cse/logout  
+    auth-filters: /*  
+    validate-filters: /*  
+    request-wrapper-filters: /*  
+    assertion-filters: /*  
+    cas-server-login-url: https://cas.e2.hicloud.com/cas_server/login
+    cas-server-url-prefix: https://cas.e2.hicloud.com/cas_server
+    redirect-after-validation: true
+    use-session: true  
+    server-name: http://cseconsole.hicloud.com:30106
+server:
+  port: 30106
+  session:
+    tracking-modes: COOKIE
+logging:
+  level:
+    root: INFO
