@@ -1,0 +1,4 @@
+<config>
+  <handler id="demo-authentication-handler"
+           class="microservice.demo.training21days.edge.handler.DemoAuthenticationHandler"/>
+</config>
