@@ -1,0 +1,4 @@
+<config>
+  <handler id="demo-handler"
+    class="microservice.demo.training21days.provider.handler.DemoHandler"/>
+</config>
