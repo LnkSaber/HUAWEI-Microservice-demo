@@ -1,0 +1,36 @@
+APPLICATION_ID: Training21Days-HelloWorld
+service_description:
+  name: consumer
+  version: 0.0.1
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+  rest:
+    address: 0.0.0.0:9090
+
+  accesslog:
+    enabled: true
+    pattern: "%h - - %t cs-uri %s %B %D %SCB-traceId"
+
+  metrics:
+    publisher:
+      defaultLog:
+        enabled: true  # 是否在默认的日志中打印metrics日志
+    window_time: 10000 # metrics日志打印周期，单位ms
+
+  credentials:
+    accessKey: your ak
+    secretKey: your sk
+    project: cn-north-1
+    akskCustomCipher: default
