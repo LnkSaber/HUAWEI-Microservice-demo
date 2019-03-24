@@ -1,0 +1,7 @@
+#cse:
+#  flowcontrol:
+#    Consumer:
+#      qps:
+#        enabled: true  # enable rate limiting or not
+#        limit:
+#          provider: 1  # rate limit for request to a provide

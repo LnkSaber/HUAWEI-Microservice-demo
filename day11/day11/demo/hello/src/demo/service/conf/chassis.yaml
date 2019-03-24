@@ -1,0 +1,17 @@
+---
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com
+  protocols:
+    rest:
+      listenAddress: 192.168.0.131:9090
+      advertiseAddress: 192.168.0.131:9090
+  credentials:
+    accessKey:  # you ak
+    secretKey:  # you sk
+    project:
+    akskCustomCipher: default

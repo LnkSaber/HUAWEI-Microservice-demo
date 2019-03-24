@@ -1,0 +1,6 @@
+---
+#微服务的私有属性
+APPLICATION_ID: Training21Days-HelloWorld
+service_description:
+  name: consumer
+  version: 0.0.1

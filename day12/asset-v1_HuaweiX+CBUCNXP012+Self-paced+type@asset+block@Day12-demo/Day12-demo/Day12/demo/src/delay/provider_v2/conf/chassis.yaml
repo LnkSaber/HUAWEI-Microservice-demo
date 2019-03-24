@@ -1,0 +1,24 @@
+---
+cse:
+  # flowcontrol:
+  #   Provider:
+  #     qps:
+  #       enabled: true  # enable rate limiting or not
+  #       global:
+  #         limit: 10
+  credentials:
+    accessKey: 
+    secretKey: 
+  service:
+    registry:
+      address:  https://cse.cn-north-1.myhuaweicloud.com
+  protocols:
+    rest:
+      listenAddress: 127.0.0.1:9091
+  handler:
+    chain:
+      Provider:
+        incoming: ratelimiter-provider
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com #uri of config center
