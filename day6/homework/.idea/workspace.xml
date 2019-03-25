@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9881c5f-96bf-4068-a169-59c4685b39c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/Demo-Day7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/consumer/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/consumer/service/HelloConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/provider/service/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/provider/service/GreetingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/provider/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/java/microservice/demo/training21days/provider/service/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/resources/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-consumer/src/main/resources/microservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/src/main/java/microservice/demo/training21days/edge/filter/DemoFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/src/main/resources/META-INF/services/org.apache.servicecomb.common.rest.filter.HttpServerFilter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/src/main/resources/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-edgeservice/src/main/resources/microservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/handler/DemoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/service/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/service/GreetingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/java/microservice/demo/training21days/provider/service/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/resources/config/cse.handler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/resources/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld-provider/src/main/resources/microservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/helloworld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day7/day7/helloworld/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asset-v1_HuaweiX+CBUCNXP012+Self-paced+type@asset+block@Demo-Day6-Homework/Demo-Day6-Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../asset-v1_HuaweiX+CBUCNXP012+Self-paced+type@asset+block@Demo-Day6-Homework/Demo-Day6-Homework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse.log" beforeDir="false" afterPath="$PROJECT_DIR$/cse.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,11 +40,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="475">
+              <caret line="25" column="85" lean-forward="true" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -80,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/java/microservice/demo/training21days/consumer/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="92">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -95,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helloworld-edeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-edeservice/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="61">
               <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
@@ -128,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="55" />
+            <state relative-caret-position="429">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -153,11 +125,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/helloworld-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/helloworld-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml" />
-        <option value="$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml" />
         <option value="$PROJECT_DIR$/helloworld-edeservice/pom.xml" />
         <option value="$PROJECT_DIR$/helloworld-edeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java" />
         <option value="$PROJECT_DIR$/helloworld-edeservice/src/main/resources/microservice.yaml" />
+        <option value="$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml" />
+        <option value="$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml" />
       </list>
     </option>
   </component>
@@ -175,10 +147,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1684" />
-    <option name="y" value="150" />
-    <option name="width" value="1936" />
-    <option name="height" value="882" />
+    <option name="x" value="2165" />
+    <option name="y" value="10" />
+    <option name="width" value="1343" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,6 +169,108 @@
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="training21days" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="training21days" type="462c0819:PsiDirectoryNode" />
+              <item name="edge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-edeservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
               <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,6 +285,14 @@
               <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
@@ -319,17 +401,17 @@
       <updated>1552871361862</updated>
       <workItem from="1552871366007" duration="3768000" />
       <workItem from="1552958662468" duration="69000" />
+      <workItem from="1553476262315" duration="2974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3837000" />
+    <option name="totallyTimeSpent" value="6811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1684" y="150" width="1936" height="882" extended-state="0" />
-    <editor active="true" />
+    <frame x="2165" y="10" width="1343" height="1037" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25215518" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.52348995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -337,7 +419,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49766356" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.75507766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -399,24 +481,10 @@
     <entry file="file://$PROJECT_DIR$/helloworld-provider/src/main/resources/config/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/java/microservice/demo/training21days/consumer/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld-edeservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2208">
           <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-edeservice/src/main/resources/microservice.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -427,27 +495,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/java/microservice/demo/training21days/consumer/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-edeservice/src/main/resources/microservice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld-consumer/src/main/resources/microservice.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="429">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="85" lean-forward="true" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld-edeservice/src/main/java/microservice/demo/training21days/edge/AppMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld-provider/src/main/resources/microservice.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,7 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-    address: 0.0.0.0:8080   # 本服务监听的地址
+    address: 0.0.0.0:8081   # 本服务监听的地址
 
   # 本地连接华为云时需要配置AK/SK，如果是在云上ServiceStage部署则不需要。直接删掉credentials配置即可
   credentials:
