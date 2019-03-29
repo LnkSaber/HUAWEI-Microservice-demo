@@ -1,0 +1,747 @@
+2019-03-26 10:01:26.219 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 10:01:26.223 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 10:01:26.226 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 10:01:26.234 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 10:01:26.235 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 10:01:26.236 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 10:01:26.290 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 10:01:26.292 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:01:26.293 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:01:26.294 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:01:26.294 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:01:26.295 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 10:01:26.295 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 10:01:26.296 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 10:01:26.302 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 10:01:26.305 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:01:26.306 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:01:26.306 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 10:01:26.307 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 10:01:26.308 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 10:01:26.308 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:01:26.309 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:01:26.309 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:01:26.310 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:01:26.311 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 10:01:26.311 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 10:01:26.311 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 10:01:26.624 +08:00 WARN servicecenter/servicecenter.go:35 service [springboot:0.0.1:default] not exists in registry, register it%!(EXTRA <nil>)
+2019-03-26 10:01:26.692 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 10:01:26.772 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 10:01:26.773 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 10:01:26.775 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:01:26.959 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 10:01:26.959 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:01:26.962 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 10:01:26.963 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 10:01:26.963 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 10:01:26.964 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 10:01:26.964 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:01:27.273 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 10:01:27.277 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 10:01:27.278 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 10:01:27.278 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 10:01:27.279 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 10:01:27.279 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 10:01:27.280 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 10:01:27.280 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 10:01:27.281 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 10:01:27.281 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 10:01:27.282 +08:00 WARN servicecenter/servicecenter.go:324 d76512700adcbbf94f5f1f9dcee49cceab6771ec Get instances from remote, key: default CseMonitoring
+2019-03-26 10:01:27.340 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 10:01:27.340 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 10:01:27.342 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 10:01:27.344 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 10:01:27.344 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 10:01:27.346 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 10:01:27.346 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 10:01:27.347 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 10:01:27.348 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 10:01:27.349 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 10:01:27.349 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 10:01:27.350 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 10:01:27.352 +08:00 INFO server/server_manager.go:65 http server start success
+2019-03-26 10:01:27.360 +08:00 INFO server/server_manager.go:67 All server Start Completed
+2019-03-26 10:01:27.361 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 10:01:27.429 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{192.168.1.146:30101  %!s(int=0)  }]
+2019-03-26 10:01:27.516 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: d76512700adcbbf94f5f1f9dcee49cceab6771ec/1286a6404f6b11e98b200255ac10556c
+2019-03-26 10:01:27.516 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: d76512700adcbbf94f5f1f9dcee49cceab6771ec/1286a6404f6b11e98b200255ac10556c
+2019-03-26 10:01:27.518 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: d76512700adcbbf94f5f1f9dcee49cceab6771ec
+2019-03-26 10:01:27.519 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:d76512700adcbbf94f5f1f9dcee49cceab6771ec/1286a6404f6b11e98b200255ac10556c
+2019-03-26 10:01:27.520 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: d76512700adcbbf94f5f1f9dcee49cceab6771ec/1286a6404f6b11e98b200255ac10556c.
+2019-03-26 10:01:27.521 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: d76512700adcbbf94f5f1f9dcee49cceab6771ec/1286a6404f6b11e98b200255ac10556c.
+2019-03-26 10:01:50.356 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 10:15:35.284 +08:00 WARN servicecenter/servicecenter.go:324 d76512700adcbbf94f5f1f9dcee49cceab6771ec Get instances from remote, key: default provider
+2019-03-26 10:17:54.184 +08:00 INFO client/client_manager.go:86 Create client for rest:springboot:
+2019-03-26 10:23:28.806 +08:00 INFO client/client_manager.go:86 Create client for rest:springboot:
+2019-03-26 10:26:19.445 +08:00 ERROR file-source/yamlconfigurationsource.go:452 yaml parsing error open C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml___jb_old___: The system cannot find the file specified.
+2019-03-26 10:26:44.485 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 10:26:44.485 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 10:26:44.493 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 10:26:44.496 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 10:26:44.497 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 10:26:44.498 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 10:26:44.498 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 10:26:44.499 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.500 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.501 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.502 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.503 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 10:26:44.511 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 10:26:44.512 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 10:26:44.518 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 10:26:44.519 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:26:44.519 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:26:44.520 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 10:26:44.526 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 10:26:44.526 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 10:26:44.527 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.528 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.528 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.529 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:44.529 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 10:26:44.530 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 10:26:44.530 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 10:26:44.570 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 10:26:44.574 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 10:26:44.581 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 10:26:44.582 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 10:26:44.582 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 10:26:44.582 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 10:26:44.582 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 10:26:44.583 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.583 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.583 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.583 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:26:44.583 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 10:26:44.583 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 10:26:44.584 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 10:26:44.589 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 10:26:44.598 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:26:44.598 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:26:44.598 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 10:26:44.598 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 10:26:44.598 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 10:26:44.598 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.598 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.599 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:44.599 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:44.599 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 10:26:44.599 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 10:26:44.599 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 10:26:44.927 +08:00 WARN servicecenter/servicecenter.go:35 service [springboot:0.0.1:Training21Days-HelloWorld] not exists in registry, register it%!(EXTRA <nil>)
+2019-03-26 10:26:44.927 +08:00 WARN servicecenter/servicecenter.go:35 service [springboot:0.0.1:Training21Days-HelloWorld] not exists in registry, register it%!(EXTRA <nil>)
+2019-03-26 10:26:45.004 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 10:26:45.024 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 10:26:45.077 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 10:26:45.077 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 10:26:45.079 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:45.099 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 10:26:45.099 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 10:26:45.101 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:45.305 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 10:26:45.306 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:45.307 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 10:26:45.308 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 10:26:45.309 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 10:26:45.309 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 10:26:45.310 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:45.327 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 10:26:45.327 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:26:45.331 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 10:26:45.332 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 10:26:45.333 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 10:26:45.334 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 10:26:45.334 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:26:45.545 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 10:26:45.548 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 10:26:45.549 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 10:26:45.549 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 10:26:45.550 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 10:26:45.551 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 10:26:45.551 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 10:26:45.555 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 10:26:45.560 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 10:26:45.561 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 10:26:45.561 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 10:26:45.612 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 10:26:45.614 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 10:26:45.615 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 10:26:45.616 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 10:26:45.617 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 10:26:45.617 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 10:26:45.618 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 10:26:45.618 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 10:26:45.619 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 10:26:45.619 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 10:26:45.619 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 10:26:45.683 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 10:26:45.683 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 10:26:45.685 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 10:26:45.686 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 10:26:45.687 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 10:26:45.687 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 10:26:45.688 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 10:26:45.688 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 10:26:45.689 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 10:26:45.689 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 10:26:45.690 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 10:26:45.690 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 10:26:45.692 +08:00 INFO server/server_manager.go:65 http server start success
+2019-03-26 10:26:45.692 +08:00 INFO server/server_manager.go:67 All server Start Completed
+2019-03-26 10:26:45.692 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 10:26:45.772 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{192.168.1.146:30101  %!s(int=0)  }]
+2019-03-26 10:26:45.842 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/9b87279e4f6e11e98b200255ac10556c
+2019-03-26 10:26:45.843 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/9b87279e4f6e11e98b200255ac10556c
+2019-03-26 10:26:45.844 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 10:26:45.844 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/9b87279e4f6e11e98b200255ac10556c
+2019-03-26 10:26:45.844 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/9b87279e4f6e11e98b200255ac10556c.
+2019-03-26 10:26:45.844 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/9b87279e4f6e11e98b200255ac10556c.
+2019-03-26 10:26:45.873 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 10:26:45.873 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 10:26:45.877 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 10:26:45.878 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 10:26:45.879 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 10:26:45.880 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 10:26:45.880 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 10:26:45.881 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 10:26:45.882 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 10:26:45.882 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 10:26:45.883 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 10:26:45.883 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 10:26:45.883 +08:00 ERROR server/server_manager.go:62 servers failed to start, err listen tcp4 127.0.0.1:30101: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-03-26 10:26:45.884 +08:00 ERROR go-chassis/chassis.go:237 run chassis fail:can not start [http] server,listen tcp4 127.0.0.1:30101: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-03-26 10:26:45.892 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 10:26:45.960 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{192.168.1.146:30101  %!s(int=0)  }]
+2019-03-26 10:26:46.032 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/9ba3a5a04f6e11e9900e0255ac105166
+2019-03-26 10:26:46.032 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/9ba3a5a04f6e11e9900e0255ac105166
+2019-03-26 10:26:46.034 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 10:26:46.034 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/9ba3a5a04f6e11e9900e0255ac105166
+2019-03-26 10:26:46.035 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/9ba3a5a04f6e11e9900e0255ac105166.
+2019-03-26 10:26:46.035 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/9ba3a5a04f6e11e9900e0255ac105166.
+2019-03-26 10:27:08.876 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 10:55:46.462 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 10:55:46.478 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 10:55:46.480 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 10:55:46.480 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 10:55:46.480 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 10:55:46.481 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 10:55:46.481 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 10:55:46.482 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.483 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.483 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.484 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.485 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 10:55:46.486 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 10:55:46.487 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 10:55:46.497 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 10:55:46.497 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:55:46.498 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:55:46.498 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 10:55:46.499 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 10:55:46.500 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 10:55:46.501 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.503 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.504 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.504 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:46.505 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 10:55:46.505 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 10:55:46.506 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 10:55:46.526 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 10:55:46.526 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 10:55:46.527 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 10:55:46.527 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 10:55:46.528 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 10:55:46.528 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 10:55:46.529 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 10:55:46.530 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.530 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.531 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.531 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 10:55:46.532 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 10:55:46.532 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 10:55:46.533 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 10:55:46.547 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 10:55:46.547 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:55:46.547 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 10:55:46.548 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 10:55:46.548 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 10:55:46.548 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 10:55:46.549 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.549 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.551 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:46.558 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:46.559 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 10:55:46.559 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 10:55:46.559 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 10:55:46.757 +08:00 INFO servicecenter/servicecenter.go:42 [springboot:0.0.1:Training21Days-HelloWorld] exists in registry
+2019-03-26 10:55:46.757 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 10:55:46.775 +08:00 INFO servicecenter/servicecenter.go:42 [springboot:0.0.1:Training21Days-HelloWorld] exists in registry
+2019-03-26 10:55:46.775 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 10:55:46.812 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 10:55:46.812 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 10:55:46.813 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:46.827 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 10:55:46.827 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 10:55:46.829 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:47.015 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 10:55:47.015 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:47.018 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 10:55:47.018 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 10:55:47.019 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 10:55:47.020 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 10:55:47.020 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:47.043 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 10:55:47.043 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 10:55:47.045 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 10:55:47.046 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 10:55:47.046 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 10:55:47.047 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 10:55:47.047 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 10:55:47.382 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 10:55:47.384 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 10:55:47.384 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 10:55:47.385 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 10:55:47.386 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 10:55:47.386 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 10:55:47.387 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 10:55:47.387 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 10:55:47.388 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 10:55:47.388 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 10:55:47.389 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 10:55:47.400 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 10:55:47.402 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 10:55:47.403 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 10:55:47.404 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 10:55:47.405 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 10:55:47.405 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 10:55:47.406 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 10:55:47.406 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 10:55:47.407 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 10:55:47.407 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 10:55:47.408 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 10:55:47.459 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 10:55:47.459 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 10:55:47.459 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 10:55:47.460 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 10:55:47.461 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 10:55:47.462 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 10:55:47.465 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 10:55:47.466 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 10:55:47.466 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 10:55:47.467 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 10:55:47.468 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 10:55:47.468 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 10:55:47.468 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 10:55:47.468 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 10:55:47.469 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 10:55:47.469 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 10:55:47.470 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 10:55:47.470 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 10:55:47.482 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 10:55:47.483 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 10:55:47.483 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 10:55:47.484 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 10:55:47.485 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 10:55:47.485 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 10:55:47.487 +08:00 ERROR server/server_manager.go:62 servers failed to start, err listen tcp4 127.0.0.1:30101: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-03-26 10:55:47.487 +08:00 ERROR go-chassis/chassis.go:237 run chassis fail:can not start [http] server,listen tcp4 127.0.0.1:30101: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-03-26 10:55:47.488 +08:00 INFO server/server_manager.go:65 http server start success
+2019-03-26 10:55:47.488 +08:00 INFO server/server_manager.go:67 All server Start Completed
+2019-03-26 10:55:47.488 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 10:55:47.489 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 10:55:47.534 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{192.168.1.146:30101  %!s(int=0)  }]
+2019-03-26 10:55:47.537 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{192.168.1.146:30101  %!s(int=0)  }]
+2019-03-26 10:55:47.591 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f464044f7211e98b200255ac10556c
+2019-03-26 10:55:47.591 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f464044f7211e98b200255ac10556c
+2019-03-26 10:55:47.593 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 10:55:47.594 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/a9f464044f7211e98b200255ac10556c
+2019-03-26 10:55:47.595 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f464044f7211e98b200255ac10556c.
+2019-03-26 10:55:47.595 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f464044f7211e98b200255ac10556c.
+2019-03-26 10:55:47.601 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f4ccf74f7211e9900e0255ac105166
+2019-03-26 10:55:47.601 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f4ccf74f7211e9900e0255ac105166
+2019-03-26 10:55:47.603 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 10:55:47.604 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/a9f4ccf74f7211e9900e0255ac105166
+2019-03-26 10:55:47.604 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f4ccf74f7211e9900e0255ac105166.
+2019-03-26 10:55:47.605 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/a9f4ccf74f7211e9900e0255ac105166.
+2019-03-26 10:56:10.462 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 10:56:10.462 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:13:05.379 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 11:13:05.379 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 11:13:05.380 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 11:13:05.380 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 11:13:05.381 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 11:13:05.381 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 11:13:05.381 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 11:13:05.381 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 11:13:05.382 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 11:13:05.382 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 11:13:05.382 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 11:13:05.382 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 11:13:05.382 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 11:13:05.382 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 11:13:05.393 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 11:13:05.397 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 11:13:05.398 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 11:13:05.398 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 11:13:05.399 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 11:13:05.400 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 11:13:05.400 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 11:13:05.401 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 11:13:05.401 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 11:13:05.402 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 11:13:05.402 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 11:13:05.403 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 11:13:05.403 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 11:13:05.611 +08:00 INFO servicecenter/servicecenter.go:42 [springboot:0.0.1:Training21Days-HelloWorld] exists in registry
+2019-03-26 11:13:05.611 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 11:13:05.656 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 11:13:05.656 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 11:13:05.659 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 11:13:05.848 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 11:13:05.848 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 11:13:05.851 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 11:13:05.852 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 11:13:05.853 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 11:13:05.853 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 11:13:05.854 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 11:13:06.014 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 11:13:06.016 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 11:13:06.017 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 11:13:06.017 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 11:13:06.018 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 11:13:06.019 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 11:13:06.019 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 11:13:06.020 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 11:13:06.021 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 11:13:06.021 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 11:13:06.022 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 11:13:06.073 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 11:13:06.073 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 11:13:06.075 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 11:13:06.077 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 11:13:06.077 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 11:13:06.078 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 11:13:06.078 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 11:13:06.078 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 11:13:06.079 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 11:13:06.080 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 11:13:06.080 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 11:13:06.080 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 11:13:06.081 +08:00 WARN http/http_server.go:112 Mesher listen on 127.0.0.1, it can only proxy for consumer. for provider, mesher must listen on external ip.
+2019-03-26 11:13:06.082 +08:00 INFO server/server_manager.go:65 http server start success
+2019-03-26 11:13:06.082 +08:00 INFO server/server_manager.go:67 All server Start Completed
+2019-03-26 11:13:06.083 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 11:13:06.131 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{127.0.0.1:30101  %!s(int=0)  }]
+2019-03-26 11:13:06.207 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:13:06.207 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:13:06.210 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 11:13:06.210 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:13:06.211 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:13:06.211 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:13:18.201 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: Training21Days-HelloWorld provider
+2019-03-26 11:13:18.257 +08:00 INFO client/client_manager.go:86 Create client for rest:provider:127.0.0.1:9090
+2019-03-26 11:13:29.078 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:25.030 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=default&serviceName=CseMonitoring&version=0%2B&rev=3a995f3e509dd4b5ea14c852b983df92fce4431c: read tcp 192.168.1.146:52078->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:25.179 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52079->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:25.179 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52079->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:25.181 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52079->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 11:14:26.867 +08:00 ERROR servicecenter/servicecenter.go:165 Heartbeat failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c. Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52077->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:26.867 +08:00 ERROR registry/heartbeat.go:94 Run Heartbeat fail: Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52077->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:36.868 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 11:14:45.225 +08:00 INFO configcenter-source/configcentersource.go:331 Recover configurations from config center server
+2019-03-26 11:14:46.033 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=Training21Days-HelloWorld&serviceName=provider&version=0%2B&rev=3a995f3e509dd4b5ea14c852b983df92fce4431c: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:14:46.385 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 11:14:46.385 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:14:46.385 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:14:46.385 +08:00 WARN registry/heartbeat.go:179 RegisterMicroServiceInstance get SelfInstancesCache failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:14:46.386 +08:00 WARN registry/heartbeat.go:183 RegisterMicroServiceInstance type asserts failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:14:46.386 +08:00 WARN registry/heartbeat.go:195 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:14:46.386 +08:00 WARN registry/heartbeat.go:139 Re-register self success
+2019-03-26 11:17:25.015 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=Training21Days-HelloWorld&serviceName=provider&version=0%2B&rev=3a995f3e509dd4b5ea14c852b983df92fce4431c: read tcp 192.168.1.146:52195->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:25.191 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52172->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:25.191 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52172->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:25.192 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52172->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 11:17:39.235 +08:00 ERROR servicecenter/servicecenter.go:165 Heartbeat failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c. Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52196->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:39.235 +08:00 ERROR registry/heartbeat.go:94 Run Heartbeat fail: Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52196->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:46.017 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=default&serviceName=CseMonitoring&version=0%2B&rev=3a995f3e509dd4b5ea14c852b983df92fce4431c: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:49.246 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 11:17:57.026 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:57.049 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:17:57.057 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 11:18:06.204 +08:00 INFO configcenter-source/configcentersource.go:331 Recover configurations from config center server
+2019-03-26 11:18:07.018 +08:00 ERROR servicecenter/cache.go:103 Get instances failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/govern/microservices?options=instances: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:18:07.018 +08:00 ERROR servicecenter/cache.go:90 Auto Update IP index failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/govern/microservices?options=instances: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:18:07.842 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 11:18:07.842 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:18:07.843 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:18:07.843 +08:00 WARN registry/heartbeat.go:195 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:18:07.843 +08:00 WARN registry/heartbeat.go:139 Re-register self success
+2019-03-26 11:48:23.646 +08:00 ERROR servicecenter/servicecenter.go:165 Heartbeat failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c. Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52516->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:23.646 +08:00 ERROR registry/heartbeat.go:94 Run Heartbeat fail: Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:52516->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:28.212 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=default&serviceName=CseMonitoring&version=0%2B&rev=998bcb61a1d83bf28d7a95a2c71b285aeb15d0b0: read tcp 192.168.1.146:52514->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:28.392 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52510->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:28.392 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52510->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:28.392 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:52510->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 11:48:33.648 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 11:48:49.216 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=Training21Days-HelloWorld&serviceName=provider&version=0%2B&rev=998bcb61a1d83bf28d7a95a2c71b285aeb15d0b0: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:54.650 +08:00 ERROR servicecenter/servicecenter.go:264 GetAllMicroServices failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:48:54.650 +08:00 ERROR registry/heartbeat.go:127 DefaultRegistrator is not healthy Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:49:00.208 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:49:00.208 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 11:49:00.209 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 11:49:04.651 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 11:49:04.960 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 11:49:04.960 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 11:49:04.960 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:49:04.961 +08:00 WARN registry/heartbeat.go:195 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 11:49:04.961 +08:00 WARN registry/heartbeat.go:139 Re-register self success
+2019-03-26 11:49:09.392 +08:00 INFO configcenter-source/configcentersource.go:331 Recover configurations from config center server
+2019-03-26 12:01:28.887 +08:00 ERROR servicecenter/servicecenter.go:165 Heartbeat failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c. Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:53491->43.254.0.77:443: wsarecv: An existing connection was forcibly closed by the remote host.
+2019-03-26 12:01:28.887 +08:00 ERROR registry/heartbeat.go:94 Run Heartbeat fail: Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/1502eec44f7511e98b200255ac10556c/heartbeat: read tcp 192.168.1.146:53491->43.254.0.77:443: wsarecv: An existing connection was forcibly closed by the remote host.
+2019-03-26 12:01:38.887 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 12:01:39.225 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 12:01:39.226 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c
+2019-03-26 12:01:39.226 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 12:01:39.226 +08:00 WARN registry/heartbeat.go:195 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/1502eec44f7511e98b200255ac10556c.
+2019-03-26 12:01:39.226 +08:00 WARN registry/heartbeat.go:139 Re-register self success
+2019-03-26 18:23:27.149 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from CommandlineSource
+2019-03-26 18:23:27.158 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from MemorySource
+2019-03-26 18:23:27.162 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\circuit_breaker.yaml] not exist
+2019-03-26 18:23:27.162 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\load_balancing.yaml] not exist
+2019-03-26 18:23:27.163 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\rate_limiting.yaml] not exist
+2019-03-26 18:23:27.164 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tls.yaml] not exist
+2019-03-26 18:23:27.165 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\monitoring.yaml] not exist
+2019-03-26 18:23:27.172 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 18:23:27.172 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 18:23:27.173 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 18:23:27.173 +08:00 INFO file-source/yamlconfigurationsource.go:538 Two files have same priority. keeping C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml value
+2019-03-26 18:23:27.173 +08:00 INFO go-archaius/archaius.go:60 [C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\tracing.yaml] not exist
+2019-03-26 18:23:27.174 +08:00 INFO go-archaius/archaius.go:69 Configuration files: C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\chassis.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\microservice.yaml, C:\Users\pc\Desktop\HUAWEI\mesher-1.5.2-windows-amd64\conf\auth.yaml
+2019-03-26 18:23:27.175 +08:00 INFO config/config.go:293 archaius init success
+2019-03-26 18:23:27.184 +08:00 INFO config/config.go:340 Host name is DESKTOP-0TE0QM5
+2019-03-26 18:23:27.185 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:true, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 18:23:27.185 +08:00 INFO archaius/transfer.go:111 save circuit breaker config [hystrix.CommandConfig{TimeoutEnabled:false, Timeout:30000, MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false}] for [] 
+2019-03-26 18:23:27.185 +08:00 INFO go-chassis/chassis.go:123 Chain init success
+2019-03-26 18:23:27.185 +08:00 INFO bootstrap/bootstrap.go:40 Bootstrap huaweiauth
+2019-03-26 18:23:27.186 +08:00 WARN gochassis/cse.go:210 Huawei Cloud auth mode: ak/sk
+2019-03-26 18:23:27.186 +08:00 WARN registry/util.go:185 registrator.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 18:23:27.186 +08:00 WARN registry/util.go:185 serviceDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 18:23:27.186 +08:00 WARN registry/util.go:185 contractDiscovery.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 18:23:27.186 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 18:23:27.186 +08:00 WARN registry/bootstrap.go:33 No schemas file for microservice [springboot].
+2019-03-26 18:23:27.186 +08:00 INFO registry/bootstrap.go:56 Framework registered is [ Mesher:1.5.2 ]
+2019-03-26 18:23:27.186 +08:00 INFO registry/bootstrap.go:57 Micro service registered by [ SIDECAR ]
+2019-03-26 18:23:27.424 +08:00 INFO servicecenter/servicecenter.go:42 [springboot:0.0.1:Training21Days-HelloWorld] exists in registry
+2019-03-26 18:23:27.424 +08:00 INFO registry/bootstrap.go:69 Register [springboot] success
+2019-03-26 18:23:27.487 +08:00 INFO registry/bootstrap.go:98 Don't need add dependency
+2019-03-26 18:23:27.487 +08:00 INFO registry/registrator.go:83 Enable [servicecenter] registrator.
+2019-03-26 18:23:27.489 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 18:23:27.629 +08:00 INFO registry/discovery.go:69 Enable servicecenter service discovery.
+2019-03-26 18:23:27.629 +08:00 INFO go-sc-client/client.go:148 Use Service center v4
+2019-03-26 18:23:27.632 +08:00 INFO registry/discovery.go:87 Enable servicecenter contract discovery.
+2019-03-26 18:23:27.633 +08:00 INFO registry/registrator.go:157 Enabled Registry
+2019-03-26 18:23:27.633 +08:00 INFO loadbalancer/load_balancer.go:108 Enable LoadBalancing
+2019-03-26 18:23:27.634 +08:00 INFO loadbalancer/load_balancer.go:122 Strategy is 
+2019-03-26 18:23:27.634 +08:00 WARN configcenter/config_center.go:121 configcenter.Consumer TLS mode, verify peer: false, cipher plugin: default.
+2019-03-26 18:23:27.816 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from ConfigCenterSource
+2019-03-26 18:23:27.817 +08:00 WARN configcenter/config_center.go:77 config center init success
+2019-03-26 18:23:27.819 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteFileSource
+2019-03-26 18:23:27.819 +08:00 INFO cse/router_manager.go:134 Add [RouteFileSource] source success
+2019-03-26 18:23:27.820 +08:00 WARN config-manager/configurationmanager.go:139 empty configurtion from RouteDarkLaunchGovernSource
+2019-03-26 18:23:27.821 +08:00 INFO cse/router_manager.go:134 Add [RouteDarkLaunchGovernSource] source success
+2019-03-26 18:23:27.822 +08:00 INFO router/router_config.go:40 Router init success
+2019-03-26 18:23:27.823 +08:00 INFO tracing/tracer_manager.go:36 Tracing enabled. Start to init tracer.
+2019-03-26 18:23:27.823 +08:00 INFO zipkin/zipkin.go:51 New Zipkin tracer with options http://127.0.0.1:9411/api/v1/spans,%!s(int=10000),10s
+2019-03-26 18:23:27.824 +08:00 INFO metrics/metric.go:60 report metrics to Prometheus
+2019-03-26 18:23:27.826 +08:00 INFO prom/prometheus.go:253 Go Runtime Metrics is enabled
+2019-03-26 18:23:27.826 +08:00 INFO metrics/metric.go:60 report metrics to CSE Monitoring
+2019-03-26 18:23:27.826 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: default CseMonitoring
+2019-03-26 18:23:27.890 +08:00 WARN cse-collector/utils.go:45 monitor.Consumer TLS mode, verify peer: false, cipher plugin: default
+2019-03-26 18:23:27.890 +08:00 INFO cse-collector/register.go:41 Started sending metric Data to Monitor Server : https://100.125.0.198:30109
+2019-03-26 18:23:27.893 +08:00 INFO go-chassis/chassis.go:299 Init chassis success, Version is dev
+2019-03-26 18:23:27.894 +08:00 INFO go-archaius/archaius.go:199 config value after change mesher.yaml | ## Router rules and fault injection rules are moved to router.yaml
+#plugin:
+#  destinationResolver:
+#    http: host # how to turn host to destination name. default to service name，
+
+##admin: #admin API
+#  serverUri : 127.0.0.1:30102 # addr on listening
+#  goRuntimeMetrics : true # enable metrics
+
+## enable pprof to profile mesher runtime
+#pprof:
+#  enable: false
+
+#localHealthCheck:
+#  - port: 8080
+#    uri: /health
+#    interval: 30s
+#    match:
+#      status: 200
+#      body: ok
+
+2019-03-26 18:23:27.894 +08:00 INFO bootstrap/bootstrap.go:73 Running as sidecar
+2019-03-26 18:23:27.895 +08:00 INFO adminapi/router.go:37 admin api are not enable
+2019-03-26 18:23:27.896 +08:00 WARN bootstrap/bootstrap.go:61 local service ports is missing, service can not be called by mesher
+2019-03-26 18:23:27.896 +08:00 INFO server/server.go:35 Version is 1.5.2
+2019-03-26 18:23:27.897 +08:00 INFO health/health.go:124 health manager start
+2019-03-26 18:23:27.898 +08:00 INFO server/server_manager.go:59 starting server http...
+2019-03-26 18:23:27.899 +08:00 WARN http/http_server.go:112 Mesher listen on 127.0.0.1, it can only proxy for consumer. for provider, mesher must listen on external ip.
+2019-03-26 18:23:27.899 +08:00 INFO server/server_manager.go:65 http server start success
+2019-03-26 18:23:27.899 +08:00 INFO server/server_manager.go:67 All server Start Completed
+2019-03-26 18:23:27.900 +08:00 INFO registry/bootstrap.go:120 Start to register instance.
+2019-03-26 18:23:27.938 +08:00 INFO registry/bootstrap.go:133 service support protocols map[http:{127.0.0.1:30101  %!s(int=0)  }]
+2019-03-26 18:23:28.014 +08:00 WARN servicecenter/servicecenter.go:59 RegisterMicroServiceInstance get SelfInstancesCache failed, Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:23:28.014 +08:00 WARN servicecenter/servicecenter.go:63 RegisterMicroServiceInstance type asserts failed,  Mid/Sid: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:23:28.018 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 18:23:28.018 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:23:28.020 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166.
+2019-03-26 18:23:28.020 +08:00 INFO registry/bootstrap.go:181 Register instance success, serviceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166.
+2019-03-26 18:23:50.904 +08:00 WARN cse-collector/csemonitor.go:88 Unable to connect to monitoring server, err: Post https://100.125.0.198:30109/v2/default/csemonitor/metric?service=springboot: dial tcp 100.125.0.198:30109: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:28:58.143 +08:00 WARN servicecenter/servicecenter.go:324 f2b512f495d574fea56f42444daa4b2baefd66ed Get instances from remote, key: Training21Days-HelloWorld provider
+2019-03-26 18:28:58.179 +08:00 INFO client/client_manager.go:86 Create client for rest:provider:127.0.0.1:9090
+2019-03-26 18:30:46.797 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=default&serviceName=CseMonitoring&version=0%2B&rev=f72e52fb356ec97f0ff31f25c2656c0ce6568f6a: read tcp 192.168.1.146:60691->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:30:47.009 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:60692->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:30:47.009 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:60692->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:30:47.012 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: read tcp 192.168.1.146:60692->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 18:30:56.337 +08:00 ERROR servicecenter/servicecenter.go:165 Heartbeat failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166. Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/324619f84fb111e9900e0255ac105166/heartbeat: read tcp 192.168.1.146:60690->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:30:56.337 +08:00 ERROR registry/heartbeat.go:94 Run Heartbeat fail: Put https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices/f2b512f495d574fea56f42444daa4b2baefd66ed/instances/324619f84fb111e9900e0255ac105166/heartbeat: read tcp 192.168.1.146:60690->43.254.0.77:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:06.340 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 18:31:07.801 +08:00 ERROR servicecenter/cache.go:240 Refresh local instance cache failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/instances?appId=Training21Days-HelloWorld&serviceName=provider&version=0%2B&rev=f72e52fb356ec97f0ff31f25c2656c0ce6568f6a: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:18.820 +08:00 ERROR configcenter-client/configcenter_client.go:276 Call https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1 failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:18.820 +08:00 ERROR configcenter-client/configcenter_client.go:391 Pull config failed:Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:18.825 +08:00 WARN configcenter-source/configcentersource.go:351 Failed to pull configurations from config center server%!(EXTRA *url.Error=Get https://cse.cn-north-1.myhuaweicloud.com:443/v3/default/configuration/items?dimensionsInfo=springboot@Training21Days-HelloWorld%230.0.1: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+2019-03-26 18:31:27.345 +08:00 ERROR servicecenter/servicecenter.go:264 GetAllMicroServices failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:27.345 +08:00 ERROR registry/heartbeat.go:127 DefaultRegistrator is not healthy Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/registry/microservices: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:28.006 +08:00 INFO configcenter-source/configcentersource.go:331 Recover configurations from config center server
+2019-03-26 18:31:28.805 +08:00 ERROR servicecenter/cache.go:103 Get instances failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/govern/microservices?options=instances: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:28.805 +08:00 ERROR servicecenter/cache.go:90 Auto Update IP index failed: Get https://cse.cn-north-1.myhuaweicloud.com:443/v4/default/govern/microservices?options=instances: dial tcp 43.254.0.77:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019-03-26 18:31:37.348 +08:00 INFO registry/heartbeat.go:124 Try to re-register self
+2019-03-26 18:31:38.376 +08:00 INFO servicecenter/servicecenter.go:75 RegisterMicroServiceInstance success, MicroServiceID: f2b512f495d574fea56f42444daa4b2baefd66ed
+2019-03-26 18:31:38.376 +08:00 INFO registry/heartbeat.go:49 Add HB task, task:f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:31:38.377 +08:00 INFO servicecenter/servicecenter.go:81 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166.
+2019-03-26 18:31:38.378 +08:00 WARN registry/heartbeat.go:179 RegisterMicroServiceInstance get SelfInstancesCache failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:31:38.378 +08:00 WARN registry/heartbeat.go:183 RegisterMicroServiceInstance type asserts failed, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166
+2019-03-26 18:31:38.379 +08:00 WARN registry/heartbeat.go:195 RegisterMicroServiceInstance success, microServiceID/instanceID: f2b512f495d574fea56f42444daa4b2baefd66ed/324619f84fb111e9900e0255ac105166.
+2019-03-26 18:31:38.379 +08:00 WARN registry/heartbeat.go:139 Re-register self success

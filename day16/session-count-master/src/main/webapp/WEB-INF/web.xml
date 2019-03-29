@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <description>
+        Servlet and JSP Examples.
+    </description>
+    <display-name>Servlet and JSP Examples</display-name>
+
+    <request-character-encoding>UTF-8</request-character-encoding>
+
+    <servlet>
+        <servlet-name>CountServlet</servlet-name>
+        <servlet-class>net.servicestage.demos.javaweb.sessioncount.CountServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CountServlet</servlet-name>
+        <url-pattern>/count</url-pattern>
+    </servlet-mapping>
+</web-app>

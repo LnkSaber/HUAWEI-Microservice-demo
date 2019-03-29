@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Servicestage Settings">
+	<item value="" key="services.relational_database.id"/>
+	<item value="default" key="cce.parameters.namespace"/>
+	<item value="1" key="size.replica"/>
+	<item value="test" key="swr_repo"/>
+	<item value="https://swr.cn-east-2.myhuaweicloud.com:443/swr/v2/domains/linsaber/namespaces/linsaber/repositories/test/packages/sessioncount/versions/1.0/file_paths/session-count.war" key="source.repo_url"/>
+	<item value="test" key="display_name"/>
+	<item value="" key="distributed_session.id"/>
+	<item value="Tomcat8" key="type"/>
+	<item value="1.0" key="version"/>
+	<item value="BIN" key="source.type"/>
+	<item value="f86adbd6-3610-4925-b466-b14886d74c01" key="instanceId"/>
+	<item value="3037dbfc-92a8-4742-b060-a754b84415bc" key="vpc.id"/>
+	<item value="59761538-50f8-11e9-8fbc-0255ac10194c" key="cce.id"/>
+	<item value="bf61e652-7ecc-4d8d-9436-f7752d0040a6" key="elb.id"/>
+	<item value="2b59f237-fc7b-4d9a-bf8f-5a3019f600b9" key="vpc.parameters.subnet.id"/>
+	<item value="MICRO-5G:0.5C:1G" key="size.id"/>
+	<item value="test" key="name"/>
+	<item value="8080" key="listener_port"/>
+	<item value="Webapp" key="category"/>
+	<item value="test" key="desc"/>
+	<list key="extended_param_keys">
+	</list>
+	<list key="extended_param_values">
+	</list>
+</section>

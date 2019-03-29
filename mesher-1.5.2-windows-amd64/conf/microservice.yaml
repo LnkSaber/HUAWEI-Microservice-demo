@@ -1,0 +1,9 @@
+## microservice property
+APPLICATION_ID: Training21Days-HelloWorld
+service_description:
+  name: springboot
+  version: 0.0.1
+  environment:  #microservice environment
+  properties:
+    allowCrossApp: false #whether to allow calls across applications
+
